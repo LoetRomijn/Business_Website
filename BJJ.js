@@ -27,10 +27,10 @@ $('.slideshow').cycle({
 
 
 $('#swapImage').click(function() {
-  if ($('#swapImage').attr('src') == 'teacher2Norm.jpg') {
-    $('#swapImage').attr('src', 'teacher2.jpg');
+  if ($('#swapImage').attr('src') == 'teacher3Norm.jpg') {
+    $('#swapImage').attr('src', 'teacher3.jpg');
   } else {
-    $('#swapImage').attr('src', 'teacher2Norm.jpg');
+    $('#swapImage').attr('src', 'teacher3Norm.jpg');
   }
 });
 
