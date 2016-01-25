@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
-	<script src="BJJ.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<style type="text/css">
+	section {
+	padding: 7px;
+}
+	.col1 {
+		float: left;
+		width: 750px;
+	}
+	.col2 {
+		float: right;
+		width: 300px;
+		border-left: 1px solid#2B2D3C;
+	} 
+	.right {
+		float: right;
+		margin: 5px;
+	}
+	.left {
+		float: left;
+		margin: 5px;
+	}
+
+	</style>
+
+	<script type="text/javascript" src='http://code.jquery.com/jquery-2.2.0.js'></script>
 	<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
-	<link rel="stylesheet" type="text/css" href="BJJ.css">
+	<script type="text/javascript" src='home.js'></script>
+	
 	<title>B. FIERCE! Martial Arts School: Brazilian Jiu Jitsu</title>
 </head>
 <body>
 	<header>
 		<div class='slideshow'>
-			<img class='slide' src="bjj1.jpg" width='100%' height='500px'>
-			<img class='slide' src="bjj2.jpg" width='100%' height='500px'>
-			<img class='slide' src="bjj3.jpg" width='100%' height='500px'>
-			<img class='slide' src="bjj5.jpg" width='100%' height='500px'>
+			<img class='slide' src="img/bjj1.jpg" width='100%' height='500px'>
+			<img class='slide' src="img/bjj2.jpg" width='100%' height='500px'>
+			<img class='slide' src="img/bjj3.jpg" width='100%' height='500px'>
+			<img class='slide' src="img/bjj5.jpg" width='100%' height='500px'>
 		</div>
 	</header>
 	<div id="marginFix">
@@ -64,8 +90,8 @@
 		<br>
 		<br>
 		<div class ='box' float='right'>
-				<a target="_blank" href="Schedule.html">
-					<img src="schedule.jpg" alt="Schedule">
+				<a target="_blank" href="classes.html">
+					<img src="img/schedule.jpg" alt="Schedule">
 				</a>
 				<div class="desc">Check out the next class time</div>
 		</div>
@@ -74,7 +100,7 @@
 
 		<div class ='box' float='right'>
 					<img class='thumb'
-					id='swapImage'
+					id='swapImage3'
  
 					src="teacher3Norm.jpg" 
 					alt="Your teacher">
